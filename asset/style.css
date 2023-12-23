@@ -1,0 +1,88 @@
+/* Small devices (portrait phones) */
+@media screen and (max-width: 576px) {
+    /* tambahkan perubahan tata letak atau gaya untuk perangkat mobile di sini */
+  }
+  
+  /* Medium devices (landscape phones) */
+  @media screen and (min-width: 576px) and (max-width: 768px) {
+    /* tambahkan perubahan tata letak atau gaya untuk perangkat mobile di sini */
+  }
+  
+  /* Large devices (tablets) */
+  @media screen and (min-width: 768px) and (max-width: 992px) {
+    /* tambahkan perubahan tata letak atau gaya untuk perangkat mobile di sini */
+  }
+  
+  /* Extra large devices (laptops/desktops) */
+  @media screen and (min-width: 992px) {
+    /* gunakan tata letak default untuk layar yang lebih lebar */
+  }
+/* Tambahkan gaya kustom di sini */
+.container {
+    margin-top: 0px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+/* Navbar Logo Styles */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  width: 40px; /* Sesuaikan lebar logo sesuai kebutuhan */
+  height: auto; /* Biarkan tinggi mengikuti perbandingan aspek logo */
+  margin-right: 10px; /* Sesuaikan margin sesuai kebutuhan */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+.navbar-nav .active > .nav-link {
+    color: #fff;
+
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 0;
+    text-align: center;
+    margin-top: 0px;
+  }
+  
+  .footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 10px;
+    font-size: 14px;
+    color: #6c757d;
+  }
+  html {
+    position: relative;
+    min-height: 100%;
+  }
+  
+  body {
+    margin-bottom: 60px; /* Sesuaikan dengan tinggi footer Anda */
+  }
+  
+  .footer {
+    position: absolute;
+    bottom: 0;
+      width: 100%;
+      height: 40px; /* Sesuaikan dengan tinggi footer Anda */
+    }
+  
